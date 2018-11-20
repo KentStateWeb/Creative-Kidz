@@ -1,0 +1,21 @@
+/*---------COLORS----------
+
+yellow: rgb(223,184,62)
+blue: rgb(93,139,200)
+green: rgb(152,201,171)
+
+*/
+
+
+
+body {
+  max-width: 1000px;
+  padding: 1em;
+  font-family: "Alegreya Sans", Helvetica, sans-serif;
+}
+
+div, section, main, aside, header, footer {
+  border: 1px solid lightgray;
+  padding: .5em;
+  margin-bottom: 1em;
+}
