@@ -11,11 +11,24 @@ green: rgb(152,201,171)
 body {
   max-width: 1000px;
   padding: 1em;
-  font-family: "Alegreya Sans", Helvetica, sans-serif;
+  font-family: "Alegreya Sans", serif;
+}
+
+header {
+  background-color: rgb(152,201,171);
+}
+
+header nav {
+  background-color: rgb(93,139,200);
 }
 
 div, section, main, aside, header, footer {
   border: 1px solid lightgray;
   padding: .5em;
   margin-bottom: 1em;
+  font-family: "Poppins", Helvetica, sans-serif;
+}
+
+p, ul {
+  font-family: "Alegreya", serif;
 }
