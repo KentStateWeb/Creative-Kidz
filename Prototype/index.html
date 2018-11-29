@@ -9,7 +9,7 @@
     <meta name="description" content="Page Description Goes Here">
   </head>
 
-<!--The page content goes here -->
+<!--TOP NAVIGATION -->
 
 <body>
   <header>
@@ -27,6 +27,38 @@
       </nav>
   </header>
 
+
+
+<!--..........SLIDER.........-->
+<div class="home-slider">
+<img class="mySlides" src="Images/Home/Slider1.png" style="width:100%">
+<img class="mySlides" src="Images/Home/Slider2.png" style="width:100%">
+<img class="mySlides" src="Images/Home/Slider3.png" style="width:100%">
+</div>
+
+<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1}
+    x[slideIndex-1].style.display = "block";
+    setTimeout(carousel, 3500); // Change image every 3 seconds
+}
+</script>
+
+
+
+
+<!--MAIN CONTENT -->
+
+
   <main>
     <div class="mission">
         <h1>Get Creative with Us</h1>
@@ -41,7 +73,7 @@
 
 
     <div class="grow">
-      <img src="Images/Home/Grow.jpg">
+      <img src="Images/Home/Grow.png">
       <h2>Grow</h2>
         <p>At Creative Kidz, we follow the Creative Curriculum, which is
           the nation’s leading preschool and childcare curriculum. <br/><a href="https://www.google.com">Learn more about our programs</a></p>
@@ -49,7 +81,7 @@
 
 
     <div class="engage">
-      <img src="Images/Home/Engage.jpg">
+      <img src="Images/Home/Engage.png">
       <h2>Engage</h2>
         <p>Kids love spending time here. Young minds are encouraged
           and nurtured with a variety of enjoyable and interesting programs
@@ -61,18 +93,18 @@
         <h1>Only the Best</h1>
         <h2>See what our Parents have to Say</h2>
         <ul>
-          <li>Connor started Creative Kidz Learning Center on Monday…and so far,
-            he couldn’t be happier (or healthier)!</br>—Karen</li>
-          <li>Special Thanks to Jonathan and Frank Smith for helping to make my
+          <li><strong>Connor started Creative Kidz</strong> Learning Center on Monday…and so far,
+            he couldn’t be happier (or healthier)!</br><span>Karen</span></li>
+          <li><strong>Special Thanks to Jonathan and Frank Smith</strong> for helping to make my
             babies’ birthday party a blast! Would definitely recommend Creative
             Kidz Learning Center as a place to celebrate your child’s birthday!
-            Lots of fun</br>—Abby</li>
-          <li>We had our daughter in a private sitters care for a year.
+            Lots of fun</br><span>Abby</span></li>
+          <li><strong>We had our daughter in a private sitters care for a year.</strong>
             We had to make a change to a facility because our needs changed.
             Our little one loves it so much and the staff made the transition
             so easy for us. She has learned so much in the last year we
             couldn’t be happier. You know a good daycare when you walk in
-            and hear children laughing and having a great time.</br>—Dan</li>
+            and hear children laughing and having a great time.</br><span>Dan</span></li>
         </ul>
     </div>
   </main>
