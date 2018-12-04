@@ -6,13 +6,43 @@ green: rgb(152,201,171)
 
 */
 
-
-
 body {
   max-width: 1000px;
-  padding: 1em;
   font-family: "Alegreya Sans", serif;
+  margin: 0px auto;
 }
+
+img{
+  max-width: 100%;
+}
+
+
+/*-----------EVERYTHING ELSE----------*/
+
+main, header, footer {
+  font-family: "Poppins", Helvetica, sans-serif;
+}
+
+main {
+  padding: 30px;
+}
+
+p, ul {
+  font-family: "Alegreya", serif;
+}
+
+h1 {
+  font-family: "Poppins", Helvetica, sans-serif;
+  line-height: 1em;
+}
+
+h2 {
+  color: rgb(152,201,171);
+  font-size: 1.2em;
+  line-height: 1.2em;
+}
+
+
 
 
 /*------------Top Nav-----------*/
@@ -80,14 +110,11 @@ header h1 {
   display: block;
   position: absolute;
   right: 0;
-  top: 0;
-  margin: 10px;
-  width: 20px;
-  height: 20px;
+  top: 15px;
+  width: 45px;
 }
 
 .topnav a.icon:hover {
-  background-color: blue;
 }
 
 
@@ -97,12 +124,16 @@ header h1 {
   list-style: none;
   padding: 0px;
   font-family: "Poppins";
+  font-size: 1.5em;
   margin-bottom: 0px;
   margin-top: 0px;
+  text-align: center;
 }
 
 .topnav ul li a:hover {
 background-color: rgb(93,139,200);
+color: white;
+text-decoration: underline;
 }
 
 
@@ -110,23 +141,6 @@ background-color: rgb(93,139,200);
 /* Style the active link (or home/logo) */
 .active {
   background-color: rgb(152,201,171);
-}
-
-/*-----------EVERYTHING ELSE----------*/
-
-section, main, aside, header, footer {
-  padding: .5em;
-  margin-bottom: 1em;
-  font-family: "Poppins", Helvetica, sans-serif;
-}
-
-p, ul {
-  font-family: "Alegreya", serif;
-}
-
-h2 {
-  color: rgb(152,201,171);
-  font-size: 1.2em;
 }
 
 
@@ -172,4 +186,55 @@ a:hover {
 
 .testimonials ul li span {
   font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------FOOTER STYLES---------------*/
+
+footer {
+  background-color: rgb(152,201,171);
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  margin-left: 0px;
+  padding-left: 0px;
+  padding-bottom: 10px;
+}
+
+footer img {
+  width: 15%;
+  padding-top: 20px;
+}
+
+footer ul {
+  list-style: none;
+  font-family: "Poppins";
+  padding-left: 0px;
+}
+
+footer ul li {
+  line-height: 1.3em;
+  padding-top: 10px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+  text-decoration: underline;
+  color: rgb(93,139,200);
 }
